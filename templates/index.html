@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<style>
+    html {
+            scroll-behavior: smooth;
+        }
+</style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,13 +36,13 @@
         <nav id="navbar" class="nav-menu">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill"></i> Início</a>
+                  <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house-fill"></i> Início</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-person-fill"></i> Sobre</a>
+                  <a class="nav-link" href="#sobre"><i class="bi bi-person-fill"></i> Sobre</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="bi bi-list-check"></i> Habilidades</a>
+                  <a class="nav-link" href="#habilidades"><i class="bi bi-list-check"></i> Habilidades</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="bi bi-file-earmark-bar-graph-fill"></i>Currículo</a>
@@ -56,21 +61,164 @@
     <main id="main">
 
         <section id="inicio" class="row m-0 p-0">
-            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+            <div class="col-md-8 d-flex justify-content-center align-items-center flex-column">
                 <h2 class="text-white text-shadow">Francisco Cezar</h2>
                 <span id="subtitle" class="text-white text-shadow">Programador Python</span>
             </div>
 
-            <div class="col-md-7 d-flex justify-content-end align-items-end">
+            <div class="col-md-4 d-flex justify-content-end align-items-end">
                 <div id="arraste" class="d-flex align-items-center">
                     <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
-                    <a href="">Arraste para mais</a>  
+                    <a href="#sobre">Arraste para mais</a>  
                 </div>
 
 
             </div>
                 
         </section>
+
+        <section class="container mt-5" id='sobre'>
+            <div class="row w-100">
+                <div class="col-md-12">
+                    <h2 class="pt-3">Sobre</h2>
+                    <p>Em 2020, eu conquistei o meu Bacharelado em Relações Internacionais. Assuntos externos, como: negociações entre países, organizações multilaterais, cooperação internacional, guerra e paz sempre me fascinaram e continuam me fascinando. Tenho orgulho dessa formação. Contudo,  no meio do caminho, apaixonei-me por programação. Com Python, foi amor à primeira vista, dado a miríade de possibilidades que essa linguagem proporciona. E decidi embarcar nessa nova, desafiadora e admirável jornada. Estou convicto de que, além de ser repleta de oportunidades para adquirir conhecimento, permitirá que eu conheça novas pessoas com visões e vivências diferentes das minhas.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="img-fluid shadow" src="../static/img/IMG_0074.JPG" alt="Foto do Francisco">
+                </div>
+                <div class="col-md-8">
+                    <h3>Programador Python</h3>
+                    <p>Estou em busca de me integrar ao mercado, por isso tenho estudado bastante por meio de cursos particulares e disponíveis na internet, livros, videoaulas e o bom e velho “vai lá e faz”, meus projetos pessoais. Além disso, tenho investido tempo em aprimorar meus conhecimentos em inglês e alemão. A primeira por ser essencial, a segunda por paixão. </p>
+                    
+                    <div class="row mt-3 mb-3">
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-5">
+                                <li class="list-group-item">
+                                    Niver: <span class="fw-lighter">28 de Novembro de 1995</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Idade: <span class="fw-lighter">26</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Cidade: <span class="fw-lighter">Campos do Jorão</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Estado: <span class="fw-lighter">São Paulo</span>
+                                </li>
+                                
+                            </ul>
+                        </div>  
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                                <li class="list-group-item">A fourth item</li>
+                                
+                            </ul>
+                        </div>  
+
+                    </div>  
+                    
+
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="mt-5 section-bg" id="habilidades">
+
+            <div class="container pb-5">
+                <h2 class="pt-5">Habilidades</h2>
+                <p>Eu estou preparado.
+                    Pronto para assumir as minhas funções da melhor forma possível.
+                    Eu estou focado apenas no essencial.
+                    Alheio a todo resto.
+                    Só vou tomar decisões pragmáticas.
+                    Não vou me permitir distrações levianas.
+                    Não vou me permitir pensar em coisas não importantes.
+                    Eu não vou depender de ninguém e nem de nada.
+                    Não vou estar sujeito a erros.</p>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Python</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 94%;" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">94%</div>
+                        </div>
+                        <p class="mt-3 mb-0">MySQL</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 81%;" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100">81%</div>
+                        </div> 
+                        <p class="mt-3 mb-0">Flask</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 67%;" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">67%</div>
+                        </div> 
+                        <p class="mt-3 mb-0">Git</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 97%;" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">97%</div>
+                        </div> 
+                    </div>     
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+                        <p class="mt-3 mb-0">CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 32%;" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100">32%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Inglês</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 69%;" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100">69%</div>
+                        </div>  
+                        <p class="mt-3 mb-0">Alemão</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+                        </div>  
+
+                    </div>
+                </div>  
+                
+                <hr class="w-50 mt-3 me-auto ms-auto">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Trabalho em equipe</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Proatividade</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 97%;" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">97%</div>
+                        </div> 
+                        <p class="mt-3 mb-0">Orientação a detalhes</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 89%;" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">89%</div>
+                        </div>  
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mt-3 mb-0">Comunicação</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 98%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">98%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Empatia</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 92%;" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">92%</div>
+                        </div> 
+                        <p class="mt-3 mb-0">Comprometimento</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
     <script src="../static/bottstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/script.js"></script>
