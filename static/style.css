@@ -216,7 +216,7 @@ i.menu-mobile {
   }
 
 
-@media (max-width: 1860px){
+@media (max-width: 1024px){
 
     [data-anime="right"] {
         transform: translate3d(0, 100%, 0);
