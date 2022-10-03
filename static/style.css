@@ -117,12 +117,12 @@ section#inicio span#subtitle {
 
 section#inicio div#arraste {
     width: 9rem;
-}
-
-section#inicio div#arraste a {
+  }
+  
+  section#inicio div#arraste a {
     text-decoration: none;
     color: #fff;
-}
+  }
 
 
 i.menu-mobile {
@@ -216,11 +216,17 @@ i.menu-mobile {
   }
 
 
-@media (max-width: 1024px){
-
+  @media (max-width: 1860px){
+    .carousel-control-prev{
+      margin-left: 0;
+    }
+    
+    .carousel-control-next{
+      margin-right: 0;
+    }
+  
     [data-anime="right"] {
-        transform: translate3d(0, 100%, 0);
-      }
-   
-};
+      transform: translate3d(0, 100%, 0);
+    }
+  };
 
