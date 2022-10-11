@@ -369,7 +369,11 @@
                                     <button id='btn-enviar' type="submit" class="btn btn-primary">Enviar
                                         mensagem</button>
 
-
+                                    <button id='btn-enviar-loader' class="btn btn-primary" type="button" disabled>
+                                        <span class="spinner-border spinner-border-sm" role="status"
+                                            aria-hidden="true"></span>
+                                        Enviando...
+                                    </button>
                                 </div>
                             </form>
                         </div>
@@ -385,7 +389,7 @@
         {% if messages %}
             {% for message in messages %}
                 <div id="alerta" class="alert alert-success alert-dismissible fade show" role="alert">
-                    <i class="bi bi-check-circle-fill"></i>{{ message }}
+                    <i class="bi bi-check-circle-fill"></i> {{ message }}
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             {% endfor %}
