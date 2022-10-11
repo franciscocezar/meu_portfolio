@@ -230,3 +230,7 @@ i.menu-mobile {
     }
   };
 
+  #btn-enviar-loarder{
+    display: none;
+  }
+
